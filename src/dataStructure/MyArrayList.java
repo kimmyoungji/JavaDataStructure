@@ -46,7 +46,7 @@ public class MyArrayList {
 	
 	// 메서드: 특정 인덱스의 값 가져오기
 	public int get(int index) {
-		if (index < 0 || index >= data.length) throw new ArrayIndexOutOfBoundsException();
+		if (index < 0 || index >= size) throw new ArrayIndexOutOfBoundsException();
 		return data[index];
 	}
 	
